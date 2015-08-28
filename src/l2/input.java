@@ -12,7 +12,7 @@ public class input {
 		DB coreDb = factory.open(new File("coreDb"), options);
 		try {
 			// populate index database
-			
+			// TODO: create modular function to populate db
 			indexDb.put(bytes("1"), bytes("k1"));
 			indexDb.put(bytes("3"), bytes("k3"));
 			indexDb.put(bytes("5"),bytes("k5"));
